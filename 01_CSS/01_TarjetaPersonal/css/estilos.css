@@ -1,0 +1,93 @@
+h1{
+    font-family: "Rubik", sans-serif;
+    color: blue;
+    margin: auto;
+}
+
+h2{
+    font-family: "Nunito Sans", sans-serif;
+    color: orangered;
+    margin: auto;
+}
+
+p{
+    font-family: "Nunito Sans", sans-serif;
+    color: darkblue;
+    margin: auto;
+}
+
+.perfil{
+    width: 200px;
+    border-width: 6px;
+    border-color: rgb(223, 208, 3);
+    border-style: solid;
+    margin: 0;
+}
+
+.borde-redondeado{
+    border-radius: 150px;
+}
+
+.descripcion{
+    color: #153448;
+    font-size: 1em;
+}
+
+.contenedor-tarjeta{
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#foto-perfil {
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: #5B99C2;
+}
+
+#nombre-cargo {
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFAEE;
+    height: 110px;
+}
+
+#nombre {
+    font-size: 32pt;
+}
+
+#cargo {
+    font-size: 23pt;
+}
+
+#mi-descripcion {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFDA78;
+    font-size: 15pt;
+    height: 200px;
+}
+
+#datos-contacto {
+    height: 100px;
+    background-color: #CAF4FF;
+}
+
+#foto-perfil,
+#nombre-cargo, 
+#mi-descripcion, 
+#datos-contacto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
