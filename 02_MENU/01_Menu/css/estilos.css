@@ -2,3 +2,11 @@
 body {
     background-image: url(../image/fondo.jpg);
 }
+
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #0B192C;
+    font-size: 20px;
+    margin-top: 50px;
+}
