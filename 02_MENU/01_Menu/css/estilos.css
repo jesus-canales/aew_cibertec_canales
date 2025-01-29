@@ -23,3 +23,7 @@ nav{
     padding: 15px 20px;
     display: block;
 }
+
+.menu-horizontal > li:hover {
+    background-color: darkorange;
+}
