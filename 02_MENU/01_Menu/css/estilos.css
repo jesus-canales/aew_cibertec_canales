@@ -16,3 +16,10 @@ nav{
     list-style: none;
     justify-content: space-around;
 }
+
+.menu-horizontal > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
