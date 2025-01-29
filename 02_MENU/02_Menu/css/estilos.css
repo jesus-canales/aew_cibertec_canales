@@ -1,0 +1,26 @@
+
+body {
+    background-image: url(../image/fondo2.jpg) ;
+}
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: #6B240C;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu-horizontal {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.submenu-catalogo {
+    position: absolute;
+    list-style: none;
+    width: 200px;
+    background-color: #994D1C;
+    display: none;
+}
